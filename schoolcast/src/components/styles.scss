@@ -1,5 +1,7 @@
 .header {
+    
     height: 5em;
+    background-color: rgba(219, 112, 147, .85);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
 
@@ -10,10 +12,10 @@
     margin: 0 auto;
 
     .logo {
-        width: 11rem;
+        width: 9rem;
         position: absolute;
-        left: 10px;
-        top: 50%;
+        left: 1px;
+        top: 40%;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50%);
         transform: translateY(-50%);

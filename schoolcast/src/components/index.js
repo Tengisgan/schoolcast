@@ -6,7 +6,9 @@ import Logo from './../assets/templogo.png';
 const Header = props => {
     return (
         <header className = "header">
+            Schoolcast
             <div className = "wrap">
+                
                 <div className = "logo">
                     <img  src ={Logo} alt = "Weather LOGO" />
                 </div>
@@ -14,5 +16,8 @@ const Header = props => {
         </header>
     );
 };
+
+
+
 
 export default Header;
