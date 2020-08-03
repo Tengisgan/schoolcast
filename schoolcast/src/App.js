@@ -3,6 +3,7 @@ import Header from './components';
 import './default.scss';
 import Weather from './components/weather'
 import Form from './components/form'
+import { Frame, Scroll, useCycle } from "framer"
 
 const API_KEY = '4030a527b2d74a47a49a50615b8d7504';
 

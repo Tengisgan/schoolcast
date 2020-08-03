@@ -1,7 +1,7 @@
 .header {
     
-    height: 5em;
-    background-color: rgba(219, 112, 147, .85);
+    height: 3.3em;
+    background-image: linear-gradient(rgb(146, 204, 231), rgb(255,255,224));
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
 
@@ -12,10 +12,10 @@
     margin: 0 auto;
 
     .logo {
-        width: 9rem;
+        width: 12rem;
         position: absolute;
-        left: 1px;
-        top: 40%;
+        left: 0px;
+        top: 52%;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50%);
         transform: translateY(-50%);

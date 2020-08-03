@@ -7,8 +7,7 @@ import './styles.scss';
 class Weather extends React.Component {
     render() {
         return (
-            <div>
-                
+            <div>      
                 {this.props.city && this.props.country && <p>Location: {this.props.city}, {this.props.country}</p>}
                 {this.props.temperature && <p>Temperature: {this.props.temperature} degrees Celsius</p>}
                 {this.props.feelslike && <p>Feels Like: {this.props.feelslike} degrees Celsius</p>}

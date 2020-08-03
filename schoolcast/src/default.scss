@@ -4,10 +4,12 @@ html {
 
 html,
 
+
 body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(rgb(255,255,224), rgb(146, 204, 231));
 }
 
 *, ::before, ::after {
@@ -16,7 +18,7 @@ body {
     box-sizing: border-box;
 }
 body {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Antic Slab', serif;
     font-size: 2rem;
     font-weight: 400;
     line-height: 1;
@@ -30,4 +32,17 @@ link, link:hover {
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+}
+button {
+    border: 0;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #5f93d6;
+    color: #fff;
+    font-weight: 100;
 }
